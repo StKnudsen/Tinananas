@@ -15,4 +15,9 @@ public class Person {
     //Anananaaaaas
     // More cowbell!!
     //Yaaaay
+
+    @Override public String toString()
+    {
+        return "Person{" + "name='" + name + '\'' + '}';
+    }
 }
